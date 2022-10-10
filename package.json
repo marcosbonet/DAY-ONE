@@ -1,0 +1,14 @@
+{
+  "name": "day-one",
+  "version": "1.0.0",
+  "description": "en el editor configurar end_of_line = lf luego entrar a view commant pallet- node.gitignore.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "prettier": {
+"singleQuote": true
+  }
+}
