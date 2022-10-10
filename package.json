@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "en el editor configurar end_of_line = lf luego entrar a view commant pallet- node.gitignore.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "prettier": {
-"singleQuote": true
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0"
   }
 }
